@@ -240,7 +240,7 @@ if __name__ == '__main__':
 
     # window size
     root.geometry("1100x500")
-    # root.resizable(0,0)
+    root.resizable(0,0)
 # ===========================================================================================================
     # Creating Frames for the widgets
     MainFrame = Frame(root, bg=bgcolor, bd=10, padx=2, pady=2, width=1350, height=600, relief=RIDGE)
